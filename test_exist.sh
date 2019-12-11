@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [[ -e pipeline_script_from_SCM ]]; then
+if [[ -e "./pipeline_script_from_SCM/" ]]; then
 	#statements
 	rm -rf pipeline_script_from_SCM*
 	echo "###########################################################" > ./console.txt
