@@ -13,6 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
+                sh './test_exist.sh'
                 println "Deploy" 
             }
         }
