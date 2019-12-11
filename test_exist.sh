@@ -3,7 +3,7 @@
 if [[ -e pipeline_script_from_SCM ]]; then
 	#statements
 	rm -rf pipeline_script_from_SCM*
-	echo "###########################################################"
-	echo "############# rm -rf pipeline_script_from_SCM* ############"
-	echo "###########################################################"
+	echo "###########################################################" > ./console.txt
+	echo "############# rm -rf pipeline_script_from_SCM* ############" >> ./console.txt
+	echo "###########################################################" >> ./console.txt
 fi
