@@ -20,7 +20,7 @@ pipeline {
     }
     post{
         always{
-            sh 'echo "你好" > test.txt'
+            sh 'echo "======== 流水线测试执行完毕 ========" >> ./console.txt'
         }
     }
 }
